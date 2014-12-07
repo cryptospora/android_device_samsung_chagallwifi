@@ -23,7 +23,7 @@ DEVICE_PACKAGE_OVERLAYS += device/samsung/chagallwifi/overlay
 
 # Device uses high-density artwork where available
 PRODUCT_AAPT_CONFIG := normal hdpi xhdpi xxhdpi
-PRODUCT_AAPT_PREF_CONFIG := xxhdpi
+PRODUCT_AAPT_PREF_CONFIG := xhdpi
 
 # Audio
 PRODUCT_PACKAGES += \
@@ -39,8 +39,8 @@ PRODUCT_COPY_FILES += \
     $(LOCAL_PATH)/configs/audio_policy.conf:system/etc/audio_policy.conf
 
 # Boot animation
-TARGET_SCREEN_HEIGHT := 2560
-TARGET_SCREEN_WIDTH := 1600
+TARGET_SCREEN_HEIGHT := 1600
+TARGET_SCREEN_WIDTH := 2560
 
 # Camera
 PRODUCT_PACKAGES += \

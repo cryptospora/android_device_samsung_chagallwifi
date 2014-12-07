@@ -17,14 +17,18 @@ lib/libarcsoft_flawlessface.so
 lib/libarcsoft_nighthawk.so
 lib/libarcsoft_night_shot.so
 lib/libarcsoft_panorama_burstcapture.so
-lib/libarcsoft_picaction_manual.so
+#lib/libarcsoft_picaction_manual.so
 lib/libarcsoft_picaction.so
 lib/libarcsoft_sensorndk.so
-lib/libarcsoft_skin_soften.so
+#lib/libarcsoft_skin_soften.so
 lib/libexynoscamera.so
 lib/libliveframework.so
 lib/libsecnativefeature.so
 lib/libvdis.so
+lib/libarcsoft_preprocessor.so
+lib/libarcsoft_readengine.so
+lib/libarcsoft_sensorndk.so
+lib/libarcsoft_vdoinvideo.so
 
 # DRM
 bin/drmserver.samsung

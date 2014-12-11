@@ -55,10 +55,10 @@ COMMON_GLOBAL_CFLAGS += -DSAMSUNG_DVFS
 # Kernel
 BOARD_KERNEL_BASE := 0x10000000
 BOARD_KERNEL_PAGESIZE := 2048
-#TARGET_KERNEL_CONFIG := cyanogenmod_chagallwifi_defconfig
-#TARGET_KERNEL_SOURCE := kernel/samsung/exynos5420
 TARGET_KERNEL_CONFIG := chagallwifi_00_defconfig
 TARGET_KERNEL_SOURCE := kernel/samsung/chagallwifi
+#TARGET_PREBUILT_KERNEL := device/samsung/chagallwifi/kernel_10-Dec
+
 
 # Battery
 BOARD_BATTERY_DEVICE_NAME := battery
@@ -74,7 +74,7 @@ TARGET_NO_BOOTLOADER := true
 TARGET_NO_RADIOIMAGE := true
 
 # FIMG2D
-#BOARD_USES_FIMGAPI_V4L2 := true
+BOARD_USES_FIMGAPI_V4L2 := true
 BOARD_USES_SKIA_FIMGAPI := true
 BOARD_USES_NEON_BLITANTIH := true
 
